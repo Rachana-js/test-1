@@ -51,7 +51,7 @@ pipeline {
                     }
         }
 
-        stage('Pushing image to repository'){
+        stage('Pushing image  repository'){
             steps{
                 sh 'docker push rachanajs/demonew:1'
             }
